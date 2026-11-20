@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Create a new note. -->
+    <item android:id="@+id/menu_add"
+          android:icon="@drawable/ic_menu_compose"
+          android:title="@string/menu_add"
+          android:alphabeticShortcut='a'
+          android:showAsAction="always" />
+
+    <!-- Search notes by title or content. -->
+    <item android:id="@+id/menu_search"
+          android:icon="@android:drawable/ic_menu_search"
+          android:title="@string/menu_search"
+          android:actionViewClass="android.widget.SearchView"
+          android:showAsAction="always|collapseActionView" />
+
+    <!-- Sort the note list. -->
+    <item android:id="@+id/menu_sort"
+          android:icon="@android:drawable/ic_menu_sort_alphabetically"
+          android:title="@string/menu_sort"
+          android:showAsAction="ifRoom" />
+
+    <!-- Filter the note list by category. -->
+    <item android:id="@+id/menu_category"
+          android:title="@string/menu_category"
+          android:showAsAction="never" />
+
+    <!-- Paste data from the clipboard into a new note. -->
+    <item android:id="@+id/menu_paste"
+          android:icon="@drawable/ic_menu_compose"
+          android:title="@string/menu_paste"
+          android:alphabeticShortcut='p' />
+</menu>

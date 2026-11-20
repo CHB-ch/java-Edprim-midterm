@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UI beautification: a clean, light Material theme with the app accent colour. -->
+    <style name="NotePadTheme" parent="@android:style/Theme.Material.Light">
+        <item name="android:colorPrimary">#3F51B5</item>
+        <item name="android:colorPrimaryDark">#303F9F</item>
+        <item name="android:colorAccent">#FF4081</item>
+        <item name="android:windowBackground">#FAFAFA</item>
+        <item name="android:textColorPrimary">#222222</item>
+    </style>
+</resources>
